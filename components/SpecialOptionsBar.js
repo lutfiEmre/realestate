@@ -2,9 +2,9 @@ import React from 'react';
 
 const SpecialOptionsBar = () => {
     return (
-        <div className={'flex justify-center items-center'}>
-            <div className={'flex mt-[62px] w-[340px] md:w-full justify-start items-start md:justify-center md:items-center  gap-[50px] lg:gap-[50px] md:gap-[100px] flex-wrap flex-col md:flex-row'}>
-                <div className={'flex  justify-center items-center flex-row gap-[10px]'}>
+        <div className={'flex justify-center items-center w-ful'}>
+            <div className={'flex mt-[62px] w-[340px] w-fit md:w-full md:justify-center md:items-center  gap-[50px] lg:gap-[50px] md:gap-[100px] flex-wrap flex-col md:flex-row'}>
+                <div className={'flex w-fit items-center flex-row gap-[10px]'}>
                     <div className={'w-[55px] h-[55px] bg-dark600 rounded-[11px] flex justify-center items-center'}>
                         <svg className={'w-[30px] h-[30px]'} xmlns="http://www.w3.org/2000/svg" width="58" height="53" viewBox="0 0 58 53" fill="none">
                             <path
@@ -17,7 +17,7 @@ const SpecialOptionsBar = () => {
                         <h2 className={'murecho-regular text-[15px] text-[#515151]'}>number of active House’s</h2>
                     </div>
                 </div>
-                <div className={'flex justify-center items-center flex-row gap-[10px]'}>
+                <div className={'flex w-fit items-center flex-row gap-[10px]'}>
                     <div className={'w-[55px] h-[55px] bg-dark600 rounded-[11px] flex justify-center items-center'}>
                         <svg className={'w-[30px] h-[30px]'} xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
                             <g clip-path="url(#clip0_10_25)">
@@ -47,7 +47,7 @@ const SpecialOptionsBar = () => {
                         <h2 className={'murecho-regular text-[15px] text-[#515151]'}>number of active users</h2>
                     </div>
                 </div>
-                <div className={'flex justify-center items-center flex-row gap-[10px]'}>
+                <div className={'flex w-fit items-center flex-row gap-[10px]'}>
                     <div className={'w-[55px] h-[55px] bg-dark600 rounded-[11px] flex justify-center items-center'}>
                         <svg className={'w-[30px] h-[30px]'} xmlns="http://www.w3.org/2000/svg" width="64" height="65" viewBox="0 0 64 65" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -60,7 +60,7 @@ const SpecialOptionsBar = () => {
                         <h2 className={'murecho-regular text-[15px] text-[#515151]'}>of waiting customers</h2>
                     </div>
                 </div>
-                <div className={'flex justify-center items-center  flex-row gap-[10px]'}>
+                <div className={'flex w-fit items-center  flex-row gap-[10px]'}>
                     <div className={'w-[55px] h-[55px] bg-dark600 rounded-[11px] flex justify-center items-center'}>
                         <svg className={'w-[30px] h-[30px]'} xmlns="http://www.w3.org/2000/svg" width="72" height="73" viewBox="0 0 72 73" fill="none">
                             <path

@@ -40,7 +40,7 @@ const FeaturedHomesAlt = () => {
     },[activeF])*/
     return (
         <div className={'mt-[70px] flex flex-col justify-start items-center gap-[50px]'}>
-            <h4 className={'murecho-semibold tracking-widest text-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-center'}>Our
+            <h4 className={'murecho-semibold tracking-widest text-[30px] sm:text-[35px] md:text-[25px] lg:text-[30px] xl:text-[30px] text-center'}>Our
                 special options <br className={'md:hidden flex'}/> for you selective</h4>
             <div className={'flex flex-col lg:flex-row lg:gap-[50px] xl:gap-[100px] items-center'}>
                 <div className={'lg:flex hidden flex-row  gap-0'}>
@@ -115,7 +115,7 @@ const FeaturedHomesAlt = () => {
                                     </svg>
                                 </div>
                                 <Image className={'rounded-t-[10px] w-[280px]'} src={`${item.img}.svg`} width={400} height={400} alt={''}/>
-                                <div className={'px-[19px] bg1 py-[10px] bg-white w-full'}>
+                                <div className={'px-[19px] bg1 pb-[30px] py-[10px] bg-white w-full'}>
                                     <h4 className={'poppins-medium text-[20px] tracking-wide'}>
                                         {item.name}
                                     </h4>
@@ -150,7 +150,7 @@ const FeaturedHomesAlt = () => {
                                                 <h5 className={'murecho-regular text-[#8B8B8B]'}>{item.bath}</h5>
                                             </div>
                                         </div>
-                                        <div className={'relative flex justify-center items-center'}>
+                                        <div className={'relative cursor-pointer flex justify-center items-center'}>
                                             <h1 className={' absolute z-20 poppins-medium text-white'}>View Offer</h1>
                                             <div className={'w-[120px] h-[40px] bg2'}>
 

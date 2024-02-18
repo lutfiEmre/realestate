@@ -4,6 +4,7 @@ import LocationSelect from "@/components/LocationSelect";
 import PropertyType from "@/components/PropertyType";
 
 import SpecialOptionsBar from "@/components/SpecialOptionsBar";
+import ReactRange from '@/components/ReactRange'
 import FeaturedHomes from "@/components/FeaturedHomes";
 import FeaturedHomesAlt from "@/components/FeaturedHomesAlt";
 export default function Home() {
@@ -51,10 +52,11 @@ export default function Home() {
                               </div>
                               <PropertyType/>
                           </div>
-                          <div className={'flex gap-[0px] flex-col'}>
+                          <div className={'flex gap-[15px] flex-col'}>
                               <div className={'flex flex-row gap-[5px] items-center'}>
                                   <h4 className={'murecho-medium text-dark600 lg:text-[30px] xl:text-[40px]'}>Price Range</h4>
                               </div>
+                              <ReactRange/>
 
                           </div>
                           <div className={'absolute cursor-pointer flex justify-center items-center right-0 bottom-0 w-[77px] h-[82px] home-bg3'}>

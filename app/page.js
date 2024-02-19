@@ -11,6 +11,7 @@ import Comments from "@/components/Comments";
 import FollowingStep from "@/components/following3";
 import News from "@/components/news";
 import GetContact from "@/components/GetContact";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
       <main className="flex min-h-screen flex-col items-center justify-between">
@@ -86,6 +87,7 @@ export default function Home() {
           <FollowingStep/>
           <News/>
           <GetContact/>
+          <Footer/>
       </main>
   );
 }

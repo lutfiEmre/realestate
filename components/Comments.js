@@ -16,8 +16,8 @@ const Comments = () => {
     return (
         <div className={'mt-[114px] mb-[150px] max-w-[1500px] relative justify-between items-center flex flex-col xl:flex-row gap-[100px] w-full h-full'}>
             <Image className={'xl:m-0 lg:-ml-12'} src={videotest} width={450} height={450} alt={''}/>
-            <div className={'flex flex-col gap-[66px] items-center xl:items-start'}>
-                <div className={'flex-col gap-[66px] w-fit items-center absolute xl:relative flex'}>
+            <div className={'flex flex-col min-h-[550px] lg:min-h-full gap-[66px] items-center xl:items-start'}>
+                <div className={'flex-col  gap-[66px] w-fit items-center absolute xl:relative flex'}>
                     <div className={'flex flex-col z-20 xl:ml-[170px] gap-[66px]'}>
                         <div
                             className={'w-fit justify-between pb-[30px] pt-[15px] px-[30px] flex gap-[20px] items-start  h-fit  bg-white boxshadow2'}>

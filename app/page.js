@@ -9,6 +9,7 @@ import FeaturedHomes from "@/components/FeaturedHomes";
 import FeaturedHomesAlt from "@/components/FeaturedHomesAlt";
 import Comments from "@/components/Comments";
 import FollowingStep from "@/components/following3";
+import News from "@/components/news";
 export default function Home() {
   return (
       <main className="flex min-h-screen flex-col items-center justify-between">
@@ -82,6 +83,7 @@ export default function Home() {
           <FeaturedHomesAlt/>
           <Comments/>
           <FollowingStep/>
+          <News/>
       </main>
   );
 }

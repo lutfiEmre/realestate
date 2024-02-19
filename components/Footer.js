@@ -11,7 +11,7 @@ import faceboo from '/public/img/footer/facebook.svg'
 const Footer = () => {
     return (
         <>
-            <div className={'md:hidden flex flex-col py-[50px] gap-[30px] items-center'}>
+            <div className={'md:hidden  flex flex-col py-[50px] gap-[30px] items-center'}>
                 <div className={'flex flex-row items-center gap-4'}>
                     <div className={'bg-[#181F37] p-4 rounded-full'}>
                         <Image src={logo} width={30} height={30} alt={''}/>
@@ -19,7 +19,9 @@ const Footer = () => {
                     <h3 className={'poppins-600 text-[23px]'}>Reale State</h3>
                 </div>
                 <div className={'flex flex-row gap-0 gap-[20px] sm:gap-[50px]'}>
-
+                     <span className={'poppins-500'}>
+                    Turkey <br/> EmreLutfi
+                </span>
                     <div className={'poppins-500 flex flex-row items-center gap-4'}>
                         <Image src={phonelogo} width={20} height={20} alt={''}/>
                         <span className={'tracking-tighter text-[14px]'}>+0 00 0 0 0 0</span>
@@ -30,7 +32,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className={'w-full  pb-[50px] justify-around gap-[50px]   xl:px-[150px] flex md:items-start'}>
+            <div
+                className={'w-full md:mt-[60px]  pb-[50px] justify-around gap-[50px]   xl:px-[150px] flex md:items-start'}>
                 <div className={'flex flex-col hidden md:flex gap-[50px]'}>
                     <div className={'flex flex-row items-center gap-4'}>
                         <div className={'bg-[#181F37] p-4 rounded-full'}>

@@ -11,7 +11,7 @@ const GetContact = () => {
         <div className={'w-full relative mt-[150px]'}>
             <div className={'z-20 flex absolute left-0  justify-center items-center gap-[90px] w-full h-full items-start p-[60px] flex-col lg:flex-row text-white'}>
                 <div className={'flex flex-col  gap-[40px]'}>
-                    <h1 className={'text-white poppins-semibold mt-4 text-[35px] w-[450px]'}>
+                    <h1 className={'text-white poppins-semibold mt-4 text-[35px] w-[300px] sm:w-[450px]'}>
                         stay in instant communication and rest assured
                     </h1>
                     <div className={'flex flex-col gap-[25px]'}>
@@ -52,8 +52,8 @@ const GetContact = () => {
                         </div>
                     </div>
                 </div>
-                <div className={'bg-white w-[500px] p-[66px] flex flex-col items-center h-[400px] rounded-[10px]'}>
-                    <h1 className={'text-[#00985B] poppins-semibold text-[30px]'}>
+                <div className={'bg-white w-[300px] sm:w-[500px] py-[30px] px-[50px] sm:p-[66px] flex flex-col items-center h-[400px] rounded-[10px]'}>
+                    <h1 className={'text-[#00985B] poppins-semibold text-center text-[30px]'}>
                         Get Contact with
                     </h1>
                     <div className={'w-full mt-[30px] h-[60px] bg-[#E4E4E4]'}>
@@ -67,7 +67,7 @@ const GetContact = () => {
                     </div>
                 </div>
             </div>
-            <Image className={'w-full -z-10 h-[1000px] lg:h-[600px] object-cover'} src={homebg} width={1920} height={1080} alt={''}/>
+            <Image className={'w-full -z-10 h-[1100px] lg:h-[600px] object-cover'} src={homebg} width={1920} height={1080} alt={''}/>
 
         </div>
     );

@@ -1,4 +1,4 @@
-// File: C:\Users\emrel\OneDrive\Masaüstü\bubitecek\app\api\homes\route.js
+// File: /Users/emrelutfi/Desktop/asd/app/api/homes/route.js
 import * as entry from '../../../../../app/api/homes/route.js'
 import type { NextRequest } from 'next/server.js'
 

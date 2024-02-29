@@ -30,8 +30,10 @@ const NavBar = () => {
                 <div className={'lg:flex hidden flex-row lg:gap-[50px] xl:gap-[60px] 2xl:gap-[135px]'}>
                     <div
                         className={'flex text-[#181F37] lg:gap-[50px] lg:text-[20px] xl:text-[25px] 2xl:text-[30px] murecho-semibold flex-row xl:gap-[80px] 2xl:gap-[104px]'}>
-                        <h4 className={'cursor-pointer'}>Home</h4>
-                        <h4 className={'cursor-pointer'}>For Sale</h4>
+                        <Link href={'/'}>
+                            <h4 className={'cursor-pointer'}>Home</h4>
+                        </Link>
+                        <Link href={'/forsale'}>      <h4 className={'cursor-pointer'}>For Sale</h4></Link>
                         <h4 className={'cursor-pointer'}>To Rent</h4>
                     </div>
                     <div className={'flex flex-row lg:gap-[40px] xl:gap-[60px] 2xl:gap-[134px]'}>
